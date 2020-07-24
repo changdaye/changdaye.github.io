@@ -4,7 +4,7 @@ filing: 粤ICP备17125314号
 SEOTitle: MrChang的博客 | MrChang Blog
 header-img: img/post-bg-swift.jpg
 email: mrchang@jetbrains.org.cn
-description: "这家伙总以为自己是个天才，实际并不比别人聪明多少！"
+description: "This guy always thought he was a genius, but he was actually not much smarter than others."
 keyword: "MrChang, MrChangBlog, MrChang的博客, Java Dev ,changdaye , mrchang "
 url: "http://blog.jetbrains.org.cn"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
