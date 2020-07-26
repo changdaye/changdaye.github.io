@@ -44,16 +44,16 @@
 
 ```
 # Site settings
-title: Hux Blog             # 你的博客网站标题
-SEOTitle: Hux Blog			# 在后面会详细谈到
+title: MrChang Blog             # 你的博客网站标题
+SEOTitle: MrChang Blog			# 在后面会详细谈到
 description: "Cool Blog"    # 随便说点，描述一下
 
 # SNS settings      
-github_username: huxpro     # 你的github账号
-weibo_username: huxpro      # 你的微博账号，底部链接会自动更新的。
+github_username: changdaye     # 你的github账号
+weibo_username: MrChang      # 你的微博账号，底部链接会自动更新的。
 
 # Build settings
-# paginate: 10              # 一页你准备放几篇文章
+# paginate: 5              # 一页你准备放几篇文章
 ```
 
 Jekyll官方网站还有很多的参数可以调，比如设置文章的链接形式...网址在这里：[Jekyll - Official Site](http://jekyllrb.com/) 中文版的在这里：[Jekyll中文](http://jekyllcn.com/).
@@ -83,7 +83,7 @@ tags:
 ### 侧边栏
 
 看右边:
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-side.png)
+![](https://raw.githubusercontent.com/changdaye/my-images/master/WX20200726-144330%402x.png)
 
 设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
 
@@ -143,7 +143,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 friends: [
     {
         title: "BY Blog",
-        href: "https://qiubaiying.github.io/"
+        href: "http://blog.jetbrains.org.cn/"
     },
     {
         title: "Apple",
