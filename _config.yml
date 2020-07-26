@@ -23,7 +23,7 @@ githubPage: GitHubPage提供构建部署服务
 githubPageUrl: https://pages.github.com/
 
 # SNS settings
-RSS: true
+RSS: false
 weibo_username:     5819954295
 #zhihu_username:     chang-da-ye-18
 github_username:    changdaye
