@@ -21,15 +21,15 @@ Stack Overflow是一个程序设计领域的问答网站，隶属Stack Exchange 
 
 # 插件 
 
-![](http://cdn-blog.jetbrains.org.cn/17-12-18/57504579.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-12-18/57504579.jpg)
 
 # 使用
 
-![](http://cdn-blog.jetbrains.org.cn/17-12-18/53976496.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-12-18/53976496.jpg)
 
 # 效果
 
-![](http://cdn-blog.jetbrains.org.cn/17-12-18/5604046.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-12-18/5604046.jpg)
 
 # 总结
 

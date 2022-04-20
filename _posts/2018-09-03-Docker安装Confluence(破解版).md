@@ -25,19 +25,19 @@ confluence是一个专业的企业知识管理与协同软件，可以用于构�
 
 1. 访问http://ip:8090/ 就可以看到Confluence的初始化和配置页面。
 
-	![](http://cdn-blog.jetbrains.org.cn/18-9-3/71584439.jpg)
-	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-9-3/71584439.jpg)
+
 2. 选择中文
 
-	![](http://cdn-blog.jetbrains.org.cn/18-9-3/75061040.jpg)
-	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-9-3/75061040.jpg)
+
 3. 选择产品安装并点击下一步，继续安装。
 
-	![](http://cdn-blog.jetbrains.org.cn/18-9-3/98211432.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-9-3/98211432.jpg)
 
 4. 准备破解
 
-	![](http://cdn-blog.jetbrains.org.cn/18-9-3/18690107.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-9-3/18690107.jpg)
 	
 # 破解confluence
 
@@ -76,12 +76,12 @@ confluence是一个专业的企业知识管理与协同软件，可以用于构�
 
    然后继续访问http://ip:8090，接着注册confluence的key
 
-  ![](http://cdn-blog.jetbrains.org.cn/18-9-3/91336780.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-9-3/91336780.jpg)
   
   
  5. 如图
 
-  ![](http://cdn-blog.jetbrains.org.cn/18-9-3/65303965.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-9-3/65303965.jpg)
   
  6. 设置mysql隔离级别  
   `SET GLOBAL tx_isolation='READ-COMMITTED';`

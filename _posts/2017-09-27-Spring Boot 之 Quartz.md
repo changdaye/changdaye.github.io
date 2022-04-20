@@ -175,5 +175,4 @@ tags:
 
 **代码：https://github.com/changdaye/spring-boot-demo/tree/master/spring-boot-quartz**
 
-
-![](http://cdn-blog.jetbrains.org.cn/17-10-11/92200804.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-11/92200804.jpg)

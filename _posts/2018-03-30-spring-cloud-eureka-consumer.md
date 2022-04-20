@@ -80,7 +80,7 @@ tags:
 		eureka.client.serviceUrl.defaultZone=http://eureka-server.jetbrains.org.cn/eureka/
 		
 4. 启动效果，可以看到没有任何服务注册上来
-	![](http://cdn-blog.jetbrains.org.cn/18-3-29/81721676.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-3-29/81721676.jpg)
 
 5. spring-cloud-eureka-consumer 调用 spring-cloud-eureka-client 中的接口
 	

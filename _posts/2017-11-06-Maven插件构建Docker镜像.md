@@ -26,7 +26,7 @@ tags:
 
 整个过程都是自动的，这样就简化了原本复杂的集成工作，一天可以集成一次，甚至是多次。
 
-![](http://cdn-blog.jetbrains.org.cn/17-11-6/9447498.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-11-6/9447498.jpg)
 
 本文主要关注的第二步，作为Dev使用Maven插件构建Docker镜像。
 
@@ -43,10 +43,9 @@ tags:
 * JDK(1.8.0_131)
 * Docker for Mac (17.09.0-ce-mac35)
 
-
 Maven 和JDK 就不用过多多了，必须具有的。Docker Registry是私有的hub，mac上装好docker之后，配置一下Docker Registry的地址，配置如下：
 
-![](http://cdn-blog.jetbrains.org.cn/17-11-6/270945.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-11-6/270945.jpg)
 
 因为docker默认需要私服做https支持，我这边之前有个私服做了https支持，所以我这里就不需要配置了
 
@@ -101,13 +100,12 @@ pom文件中需要引入相应的插件。docker-maven-plugin有三款：spotify
 	             </configuration>
 
 	</plugin>
-	
-	
 
-`${maven.docker.version}`、`${docker.skip.build}`、`${docker.image.prefix}`都是可配置的变量。`${project.basedir}`、`${project.build.directory}`、`${project.build.finalName}`、`${project.version}`分别对应项目根目录、构建目录、打包后生成的结果名称、项目版本号。
+`${maven.docker.version}`、`${docker.skip.build}`、`${docker.image.prefix}`都是可配置的变量。`${project.basedir}`
+、`${project.build.directory}`、`${project.build.finalName}`、`${project.version}`分别对应项目根目录、构建目录、打包后生成的结果名称、项目版本号。
 上面的pom插件配置，指定了dockerfile的位置和镜像的命名规则。并将docker的build目标，绑定在install这个phase上。
 
-![](http://cdn-blog.jetbrains.org.cn/17-11-6/87342576.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-11-6/87342576.jpg)
 
 ### dockerfile
 
@@ -132,10 +130,9 @@ pom文件中需要引入相应的插件。docker-maven-plugin有三款：spotify
 	
 ### 结果
 
-![](http://cdn-blog.jetbrains.org.cn/17-11-6/52931533.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-11-6/52931533.jpg)
 
-
-![](http://cdn-blog.jetbrains.org.cn/17-11-6/14752412.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-11-6/14752412.jpg)
 
 
 # 鸣谢

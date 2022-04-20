@@ -33,7 +33,7 @@ Spring Boot Admin 是一个管理和监控你的 Spring Boot 应用程序的应�
 		
 2. 启动类中引入注解 `@EnableAdminServer` ，然后运行项目：
 
-![](http://cdn-blog.jetbrains.org.cn/18-1-22/14831048.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-1-22/14831048.jpg)
 
 # 创建客户端
 
@@ -58,11 +58,11 @@ Spring Boot Admin 是一个管理和监控你的 Spring Boot 应用程序的应�
 
 1. 返回服务端查看
 
-	![](http://cdn-blog.jetbrains.org.cn/18-1-22/10881902.jpg)
-	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-1-22/10881902.jpg)
+
 2. test 应用详细信息
 
-	![](http://cdn-blog.jetbrains.org.cn/18-1-22/92688632.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-1-22/92688632.jpg)
 
 # 总结
 

@@ -19,33 +19,34 @@ tags:
 
 1. 创建一个SpringBoot - Web项目 ，pom中依赖坐标如下图所示
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-17/91456957.jpg)
-	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-17/91456957.jpg)
+
 2. 引入Swagger 依赖
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-17/33719682.jpg)
-	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-17/33719682.jpg)
+
 3. 在SpringBootStarterApplication同级目录创建Swagger配置类
-	
-	![](http://cdn-blog.jetbrains.org.cn/17-9-17/73059632.jpg)
-	
+
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-17/73059632.jpg)
+
 4. 修改配置只需要在application.properties中修改自己的配置即可。我的项目是Spring Initializr自动构建的，如你的项目不是，那配置文件名字可能是 application-XXX.yml一类的。
 
 5. Controller中使用
-	![](http://cdn-blog.jetbrains.org.cn/17-9-17/6005778.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-17/6005778.jpg)
 
 6. 文档效果
 
-    ![](http://cdn-blog.jetbrains.org.cn/17-9-17/63184256.jpg)
-	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-17/63184256.jpg)
+
 7. 生产环境一般不会暴露接口文档出来，记得关闭开关。
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-17/59638105.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-17/59638105.jpg)
 	
 ## API的注解
 
-对于API的设计，一般倾向于将功能相同的API归集为一组。在Spring Boot中，利用Controller来实现，每个Controller里包含若干个REST API，而每个API都有输入及输出值。所以swagger对API的注解也是参照这个层级来划分与实现的。其逻辑结果如下图：
-	![](http://cdn-blog.jetbrains.org.cn/17-9-17/67200541.jpg)
+对于API的设计，一般倾向于将功能相同的API归集为一组。在Spring Boot中，利用Controller来实现，每个Controller里包含若干个REST
+API，而每个API都有输入及输出值。所以swagger对API的注解也是参照这个层级来划分与实现的。其逻辑结果如下图：
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-17/67200541.jpg)
 	
 1. @Api
 该注解将一个Controller（Class）标注为一个swagger资源（API）。在默认情况下，Swagger-Core只会扫描解析具有@Api注解的类，而会自动忽略其他类别资源（JAX-RS endpoints，Servlets等等）的注解。该注解包含以下几个重要属性：

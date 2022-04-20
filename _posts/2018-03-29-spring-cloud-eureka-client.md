@@ -69,13 +69,13 @@ tags:
 		}
 3. 修改application配置文件，添加配置
 
-		spring.application.name=eureka-client
-		server.port=8081
-		eureka.client.serviceUrl.defaultZone=http://eureka-server.jetbrains.org.cn/eureka/
-		
+   	spring.application.name=eureka-client
+   	server.port=8081
+   	eureka.client.serviceUrl.defaultZone=http://eureka-server.jetbrains.org.cn/eureka/
+
 4. 启动效果，可以看到没有任何服务注册上来
 
-	![](http://cdn-blog.jetbrains.org.cn/18-3-28/10326339.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-3-28/10326339.jpg)
 	
 # 注意
 

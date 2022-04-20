@@ -192,13 +192,13 @@ Swagger2Markup是Github上的一个开源项目。该项目主要用来将Swagge
 		
 # 效果
 
-![](http://cdn-blog.jetbrains.org.cn/18-1-30/77980397.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-1-30/77980397.jpg)
 
-![](http://cdn-blog.jetbrains.org.cn/18-1-30/4926790.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-1-30/4926790.jpg)
 
 ### 实际项目应用后效果
 
-* [实际项目应用后效果](http://cdn-blog.jetbrains.org.cn/doc/all.html）
+* [实际项目应用后效果](https://cdn-blog.oss-cn-beijing.aliyuncs.com/doc/all.html）
 
 
 # 代码

@@ -73,21 +73,21 @@ tags:
 
 2. 修改`/root/hadoop-2.8.1/etc/hadoop/slaves`
 
-		hadoop01
-		
+   	hadoop01
+
 3. 启动
 
-		yarn-daemon.sh start resourcemanager   命令在resource manager所在的节点上输入(管理节点)
-		yarn-daemon.sh start nodemanager   命令在node manager所在的节点上输入（运算节点）
+   	yarn-daemon.sh start resourcemanager   命令在resource manager所在的节点上输入(管理节点)
+   	yarn-daemon.sh start nodemanager   命令在node manager所在的节点上输入（运算节点）
 
-	![](http://cdn-blog.jetbrains.org.cn/18-4-4/40829439.jpg)
-		
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-4-4/40829439.jpg)
+
 4. 查看
 
-		启动完后，可以用浏览器访问resource manager的8088端口：
-		http://hadoop01:8088/
-		
-	![](http://cdn-blog.jetbrains.org.cn/18-4-4/2705881.jpg)
+   	启动完后，可以用浏览器访问resource manager的8088端口：
+   	http://hadoop01:8088/
+
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-4-4/2705881.jpg)
 
 ### 书写map reduce代码
 

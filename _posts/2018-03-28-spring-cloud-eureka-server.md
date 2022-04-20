@@ -98,15 +98,15 @@ Spring Cloud专注于提供良好的开箱即用经验的典型用例和可扩�
 		}
 3. 修改application配置文件，添加配置
 
-		spring.application.name=eureka-server #服务名称
-		server.port=8080
-		eureka.instance.hostname=localhost # 应用的主机名称
-		eureka.client.register-with-eureka=false #自身仅作为服务器
-		eureka.client.fetch-registry=false # 无需注册自身
-		
+   	spring.application.name=eureka-server #服务名称
+   	server.port=8080
+   	eureka.instance.hostname=localhost # 应用的主机名称
+   	eureka.client.register-with-eureka=false #自身仅作为服务器
+   	eureka.client.fetch-registry=false # 无需注册自身
+
 4. 启动效果，可以看到没有任何服务注册上来
 
-	![](http://cdn-blog.jetbrains.org.cn/18-3-28/29075174.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-3-28/29075174.jpg)
 	
 # 公共eureka-server服务
 

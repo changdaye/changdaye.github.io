@@ -53,7 +53,7 @@ ASF不再基于.NET Framework 4.6.1（ASF V2系列）编写，如今使用.NET C
 ASF需要到[ArchiSteamFarm的github](https://github.com/JustArchi/ArchiSteamFarm/releases/)的发布页下载，下载最新的发布版即可，这里使用的是ASF-linux-x64，下载好后放在本地。
 打开ftp工具，将ArchiSteamFarm拷贝到你服务器的文件中，比如opt文件下：
 
-![](http://cdn-blog.jetbrains.org.cn/17-10-29/8874290.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-29/8874290.jpg)
 
 打开SSH工具，cd到你的安装目录下，比如我的
 
@@ -75,8 +75,8 @@ ASF需要到[ArchiSteamFarm的github](https://github.com/JustArchi/ArchiSteamFar
 	写Steam Login您用于登录的Steam帐户名称（可选）。
 	写Steam Password您用于登录的Steam密码（可选）。
 	现在点击Download按钮，如果你正确地完成了一个新的BotName.json文件将被下载。找到该文件并将其放入config目录（在ASF目录中）。我命名我的机器人Main，所以下载的文件被命名Main.json。
-	
-![](http://cdn-blog.jetbrains.org.cn/17-10-29/68679737.jpg)
+
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-29/68679737.jpg)
 
 当然你也可以直接编辑它的json文件，也很简单。
 
@@ -93,7 +93,7 @@ asf设置完成后，我们使用screen开启新的窗口，如果你没用安�
 
 `./ArchiSteamFarm`
 
-![](http://cdn-blog.jetbrains.org.cn/17-10-29/58347588.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-29/58347588.jpg)
 
 注意， 如果开启的时候提示没有权限,请查看上面的步骤，使用chmod命令加权。
 
@@ -105,12 +105,10 @@ asf设置完成后，我们使用screen开启新的窗口，如果你没用安�
 	查看已经启动的窗口screen -ls
 	杀掉窗口，我们用ls命令的到窗口进程号，比如9527。我们使用kill 9527来关掉窗口。
 	打开使用的窗口 screen -r
-	
+
 到此，我们完成所有操作，可以安心的挂卡了。
 
-
-
-![](http://cdn-blog.jetbrains.org.cn/17-11-1/38709407.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-11-1/38709407.jpg)
 
 
 

@@ -14,7 +14,7 @@ tags:
 # 断路器：Hystrix仪表板
 
 Hystrix的主要优点之一是它收集关于每个HystrixCommand的一套指标。Hystrix仪表板以有效的方式显示每个断路器的运行状况。
-	![](http://cdn-blog.jetbrains.org.cn/18-3-29/31513582.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-3-29/31513582.jpg)
 	
 # 创建  Hystrix Dashboard
 
@@ -80,18 +80,17 @@ Hystrix的主要优点之一是它收集关于每个HystrixCommand的一套指�
 
 3. 修改application配置文件，添加配置
 
-	spring.application.name=hystrix-dashboard
-	server.port=8087
-	
+   spring.application.name=hystrix-dashboard server.port=8087
+
 4. 启动后访问地址 http://ip:8087/hystrix
 
-	![](http://cdn-blog.jetbrains.org.cn/18-3-29/67920095.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-3-29/67920095.jpg)
 
 5. 配置
-	
-	第一行参数输入 http://ip:8086/hystrix.stream,参考项目spring-cloud-eureka-consumer-ribbon-hystrix-dashboard
-	
-	![](http://cdn-blog.jetbrains.org.cn/18-3-29/62001912.jpg)
+
+   第一行参数输入 http://ip:8086/hystrix.stream,参考项目spring-cloud-eureka-consumer-ribbon-hystrix-dashboard
+
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-3-29/62001912.jpg)
 
 # 思考
 

@@ -27,29 +27,29 @@ tags:
 
 1. ide这里使用[jetbrains公司的Idea](https://www.jetbrains.com/idea/),新建项目，选择：
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-24/7442632.jpg)
-	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-24/7442632.jpg)
+
 2. 下一步，填写基本信息。
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-24/68275658.jpg)
-	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-24/68275658.jpg)
+
 3. 我们顺便测试下rest接口，所以选择个web模块。
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-24/70774312.jpg)
-	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-24/70774312.jpg)
+
 4. 项目创建完成
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-24/19246253.jpg)
-	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-24/19246253.jpg)
+
 5. 书写test接口,并测试
 
-		`package com.example.demo.controller;
-		
-		import org.springframework.web.bind.annotation.GetMapping;
-		import org.springframework.web.bind.annotation.RestController;
-		
-		/**
-		 * @Author changwenhu
+   	`package com.example.demo.controller;
+   	
+   	import org.springframework.web.bind.annotation.GetMapping;
+   	import org.springframework.web.bind.annotation.RestController;
+   	
+   	/**
+   	 * @Author changwenhu
 		 * @Date 2017/9/24
 		 * @Blog https://jetbrains.org.cn/
 		 * @Description ${todo}
@@ -62,14 +62,13 @@ tags:
 		        return "Hello World !!!";
 		    }
 		}`
-		
 
-![](http://cdn-blog.jetbrains.org.cn/17-9-24/32505492.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-24/32505492.jpg)
 
 
 ## 日常晒猫
 
-   ![](http://cdn-blog.jetbrains.org.cn/17-9-24/24426406.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-24/24426406.jpg)
 
 	
 

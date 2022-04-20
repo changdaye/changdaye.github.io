@@ -13,9 +13,9 @@ tags:
 
 # 断路器：Hystrix客户端
 Netflix的创造了一个调用的库Hystrix实现了断路器图案。在微服务架构中，通常有多层服务调用。
-	![](http://cdn-blog.jetbrains.org.cn/18-3-29/50678168.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-3-29/50678168.jpg)
 较低级别的服务中的服务故障可能导致用户级联故障。当对特定服务的呼叫达到一定阈值时（Hystrix中的默认值为5秒内的20次故障），电路打开，不进行通话。在错误和开路的情况下，开发人员可以提供后备。
-	![](http://cdn-blog.jetbrains.org.cn/18-3-29/35238150.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-3-29/35238150.jpg)
 开放式电路会停止级联故障，并允许不必要的或失败的服务时间来愈合。回退可以是另一个Hystrix保护的调用，静态数据或一个正常的空值。回退可能被链接，所以第一个回退使得一些其他业务电话又回到静态数据。
 # 创建 Eureka Consumer Ribbon Hystrix
 
@@ -79,36 +79,36 @@ Netflix的创造了一个调用的库Hystrix实现了断路器图案。在微服
 2. 启动类上写注解
 
 	@SpringBootApplication
-	@EnableEurekaClient
-	@EnableCircuitBreaker
-	public class SpringCloudEurekaConsumerRibbonHystrixApplication {
-	    public static void main(String[] args) {
-	        SpringApplication.run(SpringCloudEurekaConsumerRibbonHystrixApplication.class, args);
-	    }
+   @EnableEurekaClient
+   @EnableCircuitBreaker
+   public class SpringCloudEurekaConsumerRibbonHystrixApplication {
+   public static void main(String[] args) {
+   SpringApplication.run(SpringCloudEurekaConsumerRibbonHystrixApplication.class, args);
+   }
 	
 	    @Bean
 	    @LoadBalanced//负载均衡
-	    public RestTemplate restTemplate() {
-	        return new RestTemplate();
-	    }
-	}
+       public RestTemplate restTemplate() {
+           return new RestTemplate();
+       }
+   }
 3. 修改application配置文件，添加配置
 
-		spring.application.name=eureka-consumer-ribbon-hystrix
-		server.port=8085
-		eureka.client.serviceUrl.defaultZone=http://eureka-server.jetbrains.org.cn/eureka/4. 启动效果 
+   	spring.application.name=eureka-consumer-ribbon-hystrix
+   	server.port=8085
+   	eureka.client.serviceUrl.defaultZone=http://eureka-server.jetbrains.org.cn/eureka/4. 启动效果 
 
-	![](http://cdn-blog.jetbrains.org.cn/18-3-29/1264846.jpg)	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-3-29/1264846.jpg)
 5. eureka-consumer-ribbon-hystrix 调用 spring-cloud-eureka-client 中的接口
 
-		@Service(value = "consumerService")
-		public class ConsumerService {
-		    @Autowired
-		    private RestTemplate restTemplate;
-		
-		    @HystrixCommand(fallbackMethod = "fallback") //调用eureka-client提供的服务，如果出现问题则调用fallback方法
-		    public String consumer() {
-		        return restTemplate.getForObject("http://eureka-client/dc", String.class);
+   	@Service(value = "consumerService")
+   	public class ConsumerService {
+   	    @Autowired
+   	    private RestTemplate restTemplate;
+   	
+   	    @HystrixCommand(fallbackMethod = "fallback") //调用eureka-client提供的服务，如果出现问题则调用fallback方法
+   	    public String consumer() {
+   	        return restTemplate.getForObject("http://eureka-client/dc", String.class);
 		    }
 		
 		    public String fallback() {

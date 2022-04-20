@@ -38,7 +38,7 @@ Jenkins是当前最常用的CI服务器，FIT2CLOUD Aliyun-OSS-Plugin for Jenkin
 ## 配置说明
 
 在使用插件之前，必须先在Manage Jenkins | Configure System | 阿里云OSS账户设置]中配置阿里云帐号的Access Key、Secret Key和阿里云EndPoint后缀.
-![](http://cdn-blog.jetbrains.org.cn/17-10-19/1133242.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-19/1133242.jpg)
 阿里云后缀：内网填"-internal.aliyuncs.com",外网填".aliyuncs.com",默认外网。如果您的Jenkins也部署在阿里云上面，那么可以使用内网，上传速度更快。
 
 ## Post-build actions: 上传Artifact到阿里云OSS
@@ -59,13 +59,13 @@ bucketName: nexus-backup
 要上传的artifacts: *.jar;*.war
 
 Object前缀: ${JOB_NAME}/${BUILD_ID}/${BUILD_NUMBER}
-![](http://cdn-blog.jetbrains.org.cn/17-10-19/36125309.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-19/36125309.jpg)
 
 ## 效果图
 
-jenkins 的log 查看 
+jenkins 的log 查看
 
-![](http://cdn-blog.jetbrains.org.cn/17-10-19/12771597.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-19/12771597.jpg)
 
 因为是走的内网 ，这里可以看到上传时间，是极快的。
 
@@ -77,9 +77,7 @@ jenkins 的log 查看
 
 **七牛 ： https://portal.qiniu.com/signup?code=3lgwdn66m24pe**
 
-
-
-![](http://cdn-blog.jetbrains.org.cn/17-10-19/86943307.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-19/86943307.jpg)
 
 
 

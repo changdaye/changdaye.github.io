@@ -54,7 +54,7 @@ AMQP是Advanced Message Queuing Protocol的简称，它是一个面向消息中�
 3. 下载完成后，直接运行安装程序。
 4. RabbitMQ Server安装完成之后，会自动的注册为服务，并以默认配置启动起来。
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-26/40051438.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-26/40051438.jpg)
 	
 ## Mac OS X安装
 
@@ -100,7 +100,7 @@ AMQP是Advanced Message Queuing Protocol的简称，它是一个面向消息中�
 		Applying plugin configuration to rabbit@PC-201602152056... started 6 plugins.
 
 2. 打开浏览器并访问：`http://localhost:15672/`，并使用默认用户`guest`登录，密码也为`guest`。我们可以看到如下图的管理页面：
-	![](http://cdn-blog.jetbrains.org.cn/17-9-26/61825965.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-26/61825965.jpg)
 	
 从图中，我们可以看到之前章节中提到的一些基本概念，比如：Connections、Channels、Exchanges、Queue等。第一次使用的读者，可以都点开看看都有些什么内容，熟悉一下RabbitMQ Server的服务端。
 
@@ -226,5 +226,4 @@ AMQP是Advanced Message Queuing Protocol的简称，它是一个面向消息中�
 
 **转载： http://www.jianshu.com/p/53221f56a8f3**
 
-
-![](http://cdn-blog.jetbrains.org.cn/17-10-11/92200804.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-11/92200804.jpg)

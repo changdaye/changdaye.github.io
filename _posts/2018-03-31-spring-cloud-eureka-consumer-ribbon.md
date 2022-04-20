@@ -92,8 +92,8 @@ Ribbon中的中心概念是指定客户端的概念。每个负载平衡器是�
 		server.port=8083
 		eureka.client.serviceUrl.defaultZone=http://eureka-server.jetbrains.org.cn/eureka/
 		
-4. 启动效果 
-	![](http://cdn-blog.jetbrains.org.cn/18-3-29/62845163.jpg)
+4. 启动效果
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-3-29/62845163.jpg)
 	
 	* 这里看到我们启动了2个eureka-client，为了测试`ribbon负载均衡`，默认使用的是`轮训规则`
 5. spring-cloud-eureka-consumer-ribbon 调用 spring-cloud-eureka-client 中的接口

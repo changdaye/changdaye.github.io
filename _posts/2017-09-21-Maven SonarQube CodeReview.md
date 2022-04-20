@@ -42,21 +42,21 @@ tags:
 
 3. 启动
 
-		docker run -d --name sonarqube \
-	    -p 9000:9000 -p 9092:9092 \
-	    -e SONARQUBE_JDBC_USERNAME=sonar \
-	    -e SONARQUBE_JDBC_PASSWORD=sonar \
-	    -e SONARQUBE_JDBC_URL=jdbc:mysql://192.168.199.131:3306/tryspread?useUnicode=true&characterEncoding=utf-8 \
-	    sonarqube
-	    
+   	docker run -d --name sonarqube \
+       -p 9000:9000 -p 9092:9092 \
+       -e SONARQUBE_JDBC_USERNAME=sonar \
+       -e SONARQUBE_JDBC_PASSWORD=sonar \
+       -e SONARQUBE_JDBC_URL=jdbc:mysql://192.168.199.131:3306/tryspread?useUnicode=true&characterEncoding=utf-8 \
+       sonarqube
+
 4. 访问。http://ip:9000
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-21/39675683.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-21/39675683.jpg)
 
 ## 项目中使用
 ### 使用方式1 
 1. maven setting.xml 设置
-		![](http://cdn-blog.jetbrains.org.cn/17-9-21/60017734.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-21/60017734.jpg)
 		
 		
 2.  pom添加插件
@@ -98,8 +98,8 @@ tags:
 
 
 ## 观察
-	
-	![](http://cdn-blog.jetbrains.org.cn/17-9-21/98104526.jpg)
+
+	![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-21/98104526.jpg)
 	
 ## 实时code review
     

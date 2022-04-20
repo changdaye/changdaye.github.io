@@ -19,20 +19,17 @@ tags:
 
 # 方法
 
-首先，打开Edit configurations，点击+号，创建一个Remote应用。 
+首先，打开Edit configurations，点击+号，创建一个Remote应用。
 
-
-![](http://cdn-blog.jetbrains.org.cn/18-1-11/78652478.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-1-11/78652478.jpg)
 
 填写name，配置Host地址（远程服务器地址）和端口（选一个未被占用的端口）。然后复制For JDK1.4.x下面的参数，示例配置的端口为5005
 
 	-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005
-	
-	
-![](http://cdn-blog.jetbrains.org.cn/18-1-11/44257397.jpg)
 
-经过以上步骤，已经获得了启动远程服务器的参数。在启动springboot时默认使用java命令来启动.
-比如，示例项目启动命令为：
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-1-11/44257397.jpg)
+
+经过以上步骤，已经获得了启动远程服务器的参数。在启动springboot时默认使用java命令来启动. 比如，示例项目启动命令为：
 	
 	$ java -jar remotedebug-0.0.1-SNAPSHOT.jar
 	

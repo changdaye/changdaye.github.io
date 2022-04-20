@@ -16,25 +16,25 @@ tags:
 
 1. pom引入依赖
 
-		<dependency>
-		      <groupId>org.projectlombok</groupId>
-		      <artifactId>lombok</artifactId>
-		      <optional>true</optional>
-		 </dependency>
-		 
+   	<dependency>
+   	      <groupId>org.projectlombok</groupId>
+   	      <artifactId>lombok</artifactId>
+   	      <optional>true</optional>
+   	 </dependency>
+
 2. idea下载插件
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-27/28118098.jpg)
-	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-27/28118098.jpg)
+
 3. lombok 常用注解介绍
 
-	* `@NonNull` ： 使用 @NonNull 注解修饰的字段 通过 set 方法设置时如果为 null, 将抛出 NullPointerException
-	* `@Cleanup` ： 主要用来修饰 IO 流相关类, 会在 finally 代码块中对该资源进行 close();
-	* `@Getter,@Setter` ： 为字段生成 getter,setter 方法, 标记到类上表明为所有字段生成
-	* `@ToString` ： 生成 toString 方法, 默认打印所有非静态字段
-	* `@EqualsAndHashCode` ： 生成 equals 和 hashCode 方法
-	* `@NoArgsConstructor` ： 无参构造函数
-	* `@RequiredArgsConstructor` ： 为未初始化的 final 字段和使用 @NonNull 标注的字段生成构造函数
+    * `@NonNull` ： 使用 @NonNull 注解修饰的字段 通过 set 方法设置时如果为 null, 将抛出 NullPointerException
+    * `@Cleanup` ： 主要用来修饰 IO 流相关类, 会在 finally 代码块中对该资源进行 close();
+    * `@Getter,@Setter` ： 为字段生成 getter,setter 方法, 标记到类上表明为所有字段生成
+    * `@ToString` ： 生成 toString 方法, 默认打印所有非静态字段
+    * `@EqualsAndHashCode` ： 生成 equals 和 hashCode 方法
+    * `@NoArgsConstructor` ： 无参构造函数
+    * `@RequiredArgsConstructor` ： 为未初始化的 final 字段和使用 @NonNull 标注的字段生成构造函数
 	* `@AllArgsConstructor` ： 为所有字段生成构造函数
 	* `@Data` ： 相当于同时使@Getter,@Setter,@ToString,@EqualsAndHashCode,@RequiredArgsConstructor
 	* `@Value` ： 类将使用 final 进行修饰,同时使用@ToString,@EqualsAndHashCode,@AllArgsConstructor,@Getter
@@ -57,6 +57,4 @@ tags:
 
 **注 : 在 IDEA 中,lombok.config 文件 请放置于 src\main\java 目录下, 在 src\main\resources 中将不生效**
 
-
-
-![](http://cdn-blog.jetbrains.org.cn/17-10-11/92200804.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-11/92200804.jpg)

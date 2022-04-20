@@ -54,10 +54,7 @@ tags:
 
 可以看到一份标准配置文件应该包含 version、services、networks 三大部分，其中最关键的就是 services 和 networks 两个部分，下面先来看 services 的书写规则。
 
-![](http://cdn-blog.jetbrains.org.cn/17-12-17/83995157.jpg)
-
-
-
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-12-17/83995157.jpg)
 
 转载
 

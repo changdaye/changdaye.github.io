@@ -49,4 +49,4 @@ tags:
  
 ## 日常晒猫
 
-![](http://cdn-blog.jetbrains.org.cn/17-9-9/51527777.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-9/51527777.jpg)

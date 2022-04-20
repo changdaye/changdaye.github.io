@@ -17,10 +17,10 @@ tags:
 1. 去[官网](http://cassandra.apache.org/)下载安装包
 2. 安装包
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-10/36454228.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-10/36454228.jpg)
 3. 上传到服务器后tar解压
 4. 目录讲解
-	![](http://cdn-blog.jetbrains.org.cn/17-9-10/97042215.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-10/97042215.jpg)
 	
 ## 要求
 
@@ -42,25 +42,26 @@ tags:
 	
 	`./cassandra -f (前台启动 去掉-f 后台启动)`
 ## 客户端
+
 1. cassandra 客户端 这里推荐使用DevCenter，[下载链接](https://www.devcenter.co/)
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-10/47114996.jpg)
-	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-10/47114996.jpg)
+
 2. 新建链接
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-10/14531145.jpg)
-	
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-10/14531145.jpg)
+
 3. 添加ip地址
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-10/78760046.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-10/78760046.jpg)
 
 4. 添加账号密码（密码为：cassandra）
 
-	![](http://cdn-blog.jetbrains.org.cn/17-9-10/71788755.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-10/71788755.jpg)
 
 5. 执行建表语句
-	* cassandra简单建表语句与关系型数据库类似 
-	* replication_factor' :3 （3表示副本因子为3 需要<=集群节点数）
+    * cassandra简单建表语句与关系型数据库类似
+    * replication_factor' :3 （3表示副本因子为3 需要<=集群节点数）
 
 ## 特别强调
 
@@ -82,4 +83,4 @@ tags:
 
 ## 日常晒猫
 
-   ![](http://cdn-blog.jetbrains.org.cn/17-9-10/9896790.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-9-10/9896790.jpg)

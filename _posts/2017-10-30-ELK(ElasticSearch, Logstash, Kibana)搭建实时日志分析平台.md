@@ -30,7 +30,7 @@ tags:
 2. Logstash是一个完全开源的工具，他可以对你的日志进行收集、过滤，并将其存储供以后使用（如，搜索）。
 3. Kibana 也是一个开源和免费的工具，它Kibana可以为 Logstash 和 ElasticSearch 提供的日志分析友好的 Web 界面，可以帮助您汇总、分析和搜索重要数据日志。
 
-![](http://cdn-blog.jetbrains.org.cn/17-10-30/89030989.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-30/89030989.jpg)
 
 如图：Logstash收集AppServer产生的Log，并存放到ElasticSearch集群中，而Kibana则从ES集群中查询数据生成图表，再返回给Browser。
 
@@ -79,21 +79,20 @@ tags:
 
 1. logback.xml 配置
 
-![](http://cdn-blog.jetbrains.org.cn/17-10-30/50241995.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-30/50241995.jpg)
 
 2. 测试类
 
-![](http://cdn-blog.jetbrains.org.cn/17-10-30/5406510.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-30/5406510.jpg)
 
 3. Logstash 日志
 
-![](http://cdn-blog.jetbrains.org.cn/17-10-30/65094921.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-30/65094921.jpg)
 
 4. Kibana 显示
 
-![](http://cdn-blog.jetbrains.org.cn/17-10-30/12298904.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-10-30/12298904.jpg)
 
-
-![](http://cdn-blog.jetbrains.org.cn/17-11-1/74960136.jpg)
+![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/17-11-1/74960136.jpg)
 
 

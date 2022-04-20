@@ -84,9 +84,9 @@ Feign是一个声明式的Web服务客户端。这使得Web服务客户端的写
 		spring.application.name=spring-cloud-eureka-consumer-feign
 		server.port=8084
 		eureka.client.serviceUrl.defaultZone=http://eureka-server.jetbrains.org.cn/eureka/		
-4. 启动效果 
-	![](http://cdn-blog.jetbrains.org.cn/18-3-29/69111377.jpg)	
-	* 这里看到我们启动了2个eureka-client，因为Feign集成了Ribbon，所以启动2个client正好可以测试负载均衡
+4. 启动效果
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-3-29/69111377.jpg)
+    * 这里看到我们启动了2个eureka-client，因为Feign集成了Ribbon，所以启动2个client正好可以测试负载均衡
 	
 5. spring-cloud-eureka-consumer-feign 调用 spring-cloud-eureka-client 中的接口
 	* controller很简单

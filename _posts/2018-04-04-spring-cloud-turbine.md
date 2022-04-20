@@ -85,17 +85,17 @@ tags:
 		spring.application.name=turbine
 		server.port=8989
 		management.port=8990
-		eureka.client.serviceUrl.defaultZone=http://eureka-server.jetbrains.org.cn/eureka/
-		  #需要收集监控信息的服务名
-		turbine.app-config=eureka-consumer-ribbon-hystrix,eureka-consumer-ribbon-hystrix-new
-		#集群名称为default，当我们服务数量非常多的时候，可以启动多个Turbine服务来构建不同的聚合集群，而该参数可以用来区分这些不同的聚合集群，同时该参数值可以在Hystrix仪表盘中用来定位不同的聚合集群，只需要在Hystrix Stream的URL中通过cluster参数来指定
-		turbine.cluster-name-expression="default"
-		#设置为true，可以让同一主机上的服务通过主机名与端口号的组合来进行区分
-		turbine.combine-host-port=true
-	
+   	eureka.client.serviceUrl.defaultZone=http://eureka-server.jetbrains.org.cn/eureka/
+   	  #需要收集监控信息的服务名
+   	turbine.app-config=eureka-consumer-ribbon-hystrix,eureka-consumer-ribbon-hystrix-new
+   	#集群名称为default，当我们服务数量非常多的时候，可以启动多个Turbine服务来构建不同的聚合集群，而该参数可以用来区分这些不同的聚合集群，同时该参数值可以在Hystrix仪表盘中用来定位不同的聚合集群，只需要在Hystrix Stream的URL中通过cluster参数来指定
+   	turbine.cluster-name-expression="default"
+   	#设置为true，可以让同一主机上的服务通过主机名与端口号的组合来进行区分
+   	turbine.combine-host-port=true
+
 4. 启动后访问地址 http://localhost:8989/turbine.stream 把这个地址配置到spring-cloud-hystrix-dashboard中。即可
 
-	![](http://cdn-blog.jetbrains.org.cn/18-3-29/16136385.jpg)
+   ![](https://cdn-blog.oss-cn-beijing.aliyuncs.com/18-3-29/16136385.jpg)
 
 
 
